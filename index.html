@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- ===( Build By : CODE AASHU )=== -->
+
 <head>
     <link rel="shortcut icon" href="images/logoT.png" type="favicon" />
     <meta charset="UTF-8">
@@ -22,21 +23,21 @@
                     <img src="images/logo2.png" alt="">
                 </a>
                 <a href="index.html">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-                <a href="#">FAQ`s</a>
-                <a href="mailto:hellow.ashutosh@gmail.com" class="btn_1">Let's talk</a>
+                <a class="link_s" href="#">Projects</a>
+                <a class="link_s" href="#">Services</a>
+                <a class="link_s" href="#">Contact</a>
+                <a class="link_s" href="#">FAQ`s</a>
+                <a class="link_s" href="mailto:sethkimani99@gmail.com" class="btn_1">Let's talk</a>
                 <div class="menu">
                     <img src="images/hamburger.png" alt="">
                 </div>
                 <div class="menu_container">
-                    <a href="index.html">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-                <a href="#">FAQ`s</a>
-                <a href="mailto:hellow.ashutosh@gmail.com" class="btn_1">Let's talk</a>
+                    <a class="link_s" href="index.html">Home</a>
+                    <a class="link_s" href="#">Projects</a>
+                    <a class="link_s" href="#">Services</a>
+                    <a class="link_s" href="#">Contact</a>
+                    <a class="link_s" href="#">FAQ`s</a>
+                    <a class="link_s" href="mailto:sethkimani99@gmail.com" class="btn_1">Let's talk</a>
                 </div>
             </div>
         </nav>
@@ -195,7 +196,8 @@
                         Explore designs that redefine <br>
                         conventional spaces.
                     </div>
-                    <p class="wow animate__animated animate__fadeInUp">Embark on a journey of collaboration, where your dreams become architectural masterpieces.</p>
+                    <p class="wow animate__animated animate__fadeInUp">Embark on a journey of collaboration, where your
+                        dreams become architectural masterpieces.</p>
                 </div>
                 <div class="showcases">
                     <div class="showcase wow animate__animated animate__fadeInUp">
@@ -241,7 +243,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="brands">
             <div class="container-xl">
                 <div class="section_heading">
@@ -313,7 +315,11 @@
                         </a>
                         <div class="wow animate__animated animate__fadeInUp">
                             <p>Follow Us</p>
-                            <span><a href="https://www.pinterest.com/sethkimani/"><i class='bx bxl-pinterest'></i></a> <a href="https://www.instagram.com/seth.gfx/"><i class='bx bxl-instagram-alt' style='color:#ffffff' ></i></a> <a href="https://seth-kimani.github.io"><i class='bx bxl-github' style='color:#ffffff' ></i></a></span>
+                            <span><a href="https://www.pinterest.com/sethkimani/" target="_blank"><i
+                                        class='bx bxl-pinterest'></i></a> <a href="https://www.instagram.com/seth.gfx/"
+                                    target="_blank"><i class='bx bxl-instagram-alt' style='color:#ffffff'></i></a> <a
+                                    href="https://seth-kimani.github.io" target="_blank"><i class='bx bxl-github'
+                                        style='color:#ffffff'></i></a></span>
                         </div>
                     </div>
 
@@ -357,23 +363,24 @@
             requestAnimationFrame(raf);
         }
         requestAnimationFrame(raf);
-        
+
         const menu = document.querySelector(".menu");
         const menuContainer = document.querySelector(".menu_container");
         let menuToggle = false;
-        menu.addEventListener("click", ()=>{
-            if(!menuToggle){
+        menu.addEventListener("click", () => {
+            if (!menuToggle) {
                 menuContainer.style.transform = "translateX(0)";
                 lenis.stop();
             }
-            else{
+            else {
                 menuContainer.style.transform = "translateX(100%)";
                 lenis.start();
             }
-            
+
             menuToggle = !menuToggle
         })
     </script>
 </body>
 <!-- ===( Build By : CODE Seth Kimani )=== -->
+
 </html>

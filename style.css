@@ -710,5 +710,7 @@ footer small {
     text-align: center;
   }
 }
-
+.link_s:hover{
+  color: #ffffff;
+}
 /* ===( Build By : CODE AASHU )=== */
